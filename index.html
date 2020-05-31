@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Tung's Homepage</title>
+  <link rel="shortcut icon" href="img/micFace.png">
+  <style>    
+    body {
+      margin: 40px auto;
+      max-width: 80%;
+      line-height: 1.6;
+      font-size: 18px;
+      color: #222;
+      padding: 0 10px;
+      background: url(img/bg.png) center center repeat transparent;
+    }
+    h1,h2,h3 {
+      line-height: 1.2;
+      font-family: georgia;
+    }
+    #Header {
+      text-align: center;
+    }
+    .logo {
+      text-decoration: overline underline brown;
+      font-size: 48px;
+      font-family: serif;
+      color: #000;
+      text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+      transition: transform .5s;
+      cursor: pointer;
+    }
+    .logo:hover {
+      transform: scale(1.2);
+    }
+    .tagline {
+      font-size: 20px;
+      color: #bc2e1e;
+      font-style: italic;
+      font-family: monospace;
+    }
+    #Nav {
+      text-align: center;
+      font-family: cursive;
+      margin: 20px 0;
+    }
+    .nav-link {
+      display: inline-block;
+      padding: 8px 15px;
+      margin: 10px;
+      background: lightgrey;
+      border: 3px outset rgba(164, 164, 164, 0.99);
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      outline: 5px solid red;
+      color: red;
+    }
+    .nav-link:active {
+      background: grey;
+      border-style: inset;
+      color: darkred;
+    }
+    .section h2 {
+      font-family: sans-serif;
+      font-size: 36px;
+      font-weight: 900;
+      text-shadow: 5px 5px black;
+      text-align: center;
+      color: white;
+      background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    }
+    #Footer {
+      text-align: center;
+    }
+    #Footer .credit {
+      display: block;
+    }
+    img { max-width: 100%; }
+    .gallery img { 
+      max-height: 240px;
+      margin: 5px;
+    }
+    th, td { padding: 10px; }
+    .skills li {
+      list-style-image: url(img/star.gif);
+    }
+    .construction {
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: underline;
+      background: yellow;
+      color: black;
+    }
+    .construction img {
+      vertical-align: middle;
+      max-width: 128px;
+      display: block;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="Header">
+    <h1 class="logo">TUNG LE's HOMEPAGE</h1>
+    <img src="img/01.gif" alt="welcome" />    
+  </div>  
+  <div id="Nav">
+    <a class="nav-link" href="#About">About</a>
+    <a class="nav-link" href="#Works">Works</a>
+    <a class="nav-link" href="#Gallery">Gallery</a>
+    <a class="nav-link" href="#Contact">Contact</a>
+  </div>  
+  <div id="About" class="section">
+    <h2>About</h2>
+    <span class="tagline"><MARQUEE>~~ <img src="img/party.gif" /> El diseño gráfico es mi pasión. <img src="img/big-hug.gif" /> ~~</MARQUEE></span>
+    <table border="1">
+    <tbody>    
+    <tr>
+    <td rowspan="2">
+      Experienced Graphic Designer with a demonstrated history of working in the graphic design industry. Also skilled in Web Development, Game Design, Pixel Art, Translation, and Photography.
+    </td>
+    <td align="center"><img src="img/meepoFace.png" /></td>    
+    </tr>
+    <tr>      
+      <td width="30%" class="skills">
+        My skills:
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Graphics Design</li>
+          <li>Photography</li>
+        </ul>
+        My tools:
+        <ul>
+          <li>Adobe Suite</li>
+          <li>Affinity Suite</li>
+          <li>VSCode</li>
+          <li>Fujifilm X</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <a href="https://www.paypal.me/tungkradle" target="_blank"><img src="img/coffeebanner.gif" alt="coffee" /></a>
+      </td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+  <div id="Works" class="section">
+    <h2>Works</h2>
+    <h3 class="construction">
+      <img src="img/construction.gif" />
+      This section is under construction!
+    </h3>
+  </div>
+  <div id="Gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="img/meepoFurball.png" />      
+      <img src="img/meepo1.jpg" />
+      <img src="img/boodf.jpg" />
+      <img src="img/06.gif" />
+      <img src="img/nupogodi.jpg" />
+      <img src="img/tun.jpg" />
+      <img src="img/BK.jpg" />      
+      <img src="img/tunYawn.png" />
+      <img src="img/zenit.jpg" />
+      <img src="img/batmic.jpg" />
+      <img src="img/nokiared.jpg" />
+    </div>
+  </div>
+  <div id="Contact" class="section">
+    <h2>Contact</h2>
+    <img src="img/04.gif" style="float: right;" width="128px" />
+    <dl>
+      <dt>Visit my modern website</dt>
+      <dd><a href="https://www.tunglt.com">www.tunglt.com</a></dd>
+      <dt>Send me an email</dt>
+      <dd><a href="mailto:boodf2@yahoo.com">boodf2@yahoo.com</a></dd>
+      <dt>Follow my microblog</dt>
+      <dd><a href="https://twitter.com/kradTL">@kradtl</a></dd>
+    </dl>    
+  </div>
+  <div id="Footer">
+    <!-- AddToAny BEGIN -->
+    <div>
+    <a href="https://www.addtoany.com/subscribe#url=https%3A%2F%2Fwww.tunglt.com%2Frss.xml&amp;title=" target="_blank"><img src="https://static.addtoany.com/buttons/subscribe_120_16.gif" width="120" height="16" border="0" alt="Subscribe"></a>
+    </div>
+    <!-- AddToAny END -->
+    <img src="https://www.cutercounter.com/hits.php?id=hmxxfdpd&nd=6&style=22" border="0" alt="best free website hit counter"/>
+    <span class="credit">
+      Copyright (c) <script>document.write(new Date().getFullYear())</script> - Tung Le
+    </span>
+  </div>
+</body>
+</html>
